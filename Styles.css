@@ -323,7 +323,7 @@
     bottom: 20px;
     left: 0;
     width: 100%;
-    background-color:var(--white);
+    background-color:rgba(255, 255, 255, 0.726);
     color:  rgba(226, 139, 0);
     padding: 1rem;
     text-align: center;
@@ -919,10 +919,28 @@
       gap: 1.5rem;
     }
     
-    /* Carousel */
-    .carousel-slide img {
-      height: 50vh;
+    .carousel-slide {
+      height: 70vh; /* Reduced height for better visibility */
     }
+    
+    .carousel-slide img {
+      height: 100%;
+      width: 100%;
+      object-fit: contain; /* Changed from 'cover' to 'contain' */
+    }
+    
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.808);
+      color: white;
+      bottom: 0;
+      padding: 0.7rem;
+      font-size: 1rem;
+    }
+    
+    .carousel-dots {
+      bottom: 40px;
+    }
+  
     
     /* Menu */
     .menu-grid {
@@ -959,10 +977,14 @@
       font-size: 1.8rem;
     }
     
-    .carousel-slide img {
-      height: 40vh;
+    .carousel-slide {
+      height: 60vh;
     }
     
+    .carousel-slide img {
+      object-position: center; /* Centers the image */
+    }
+      
     .menu-image {
       width: 100%;
     }
