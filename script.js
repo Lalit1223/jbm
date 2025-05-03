@@ -120,7 +120,6 @@ document.addEventListener("DOMContentLoaded", function () {
       { value: "chapati", text: "Chapati", price: 25 },
       { value: "rice-bhakri", text: "Rice Bhakri", price: 45 },
       { value: "steam-rice", text: "Steam Rice", price: 110 },
-      { value: "ukada-rice", text: "Ukada Rice", price: 110 },
     ],
     beverage: [
       { value: "soulkurry", text: "SoulKurry", price: 100 },
